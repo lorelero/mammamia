@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #000000;
+}
+
+h1,
+h2,
+p {
+  color: #ffffff;
+}
+
+header {
+  left: 0px;
+  width: 1280px;
+  height: 73px;
+}
+.titulo {
+  left: 0px;
+  font-size: 50px;
+  text-align: center;
+  top: 0px;
+  padding-bottom: 7px;
+}
+.destacados {
+  background-image: url(../img/iguanaheader.jpeg);
+  width: 1280px;
+  height: 727px;
+  top: 73px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+.centrado {
+  margin: auto;
+  justify-content: center;
+  top: 800px;
+  left: 0px;
+  width: 1280px;
+  height: 348px;
+}
+
+.desc-section_texto,
+.desc-section_iguana_1 {
+  display: inline-block;
+  justify-content: flex-start;
+}
+
+.desc-section_texto {
+  width: 475px;
+  height: 197px;
+  text-align: left;
+  font-size: 16px;
+  padding-left: 150px;
+}
+
+.desc-section_iguana_1 {
+  width: 399px;
+  height: 237px;
+}
+
+.icons-section {
+  background-color: #1e1a13;
+  text-align: center;
+  font-weight: 300;
+  top: 1141px;
+  left: 0px;
+}
+
+.centrado h2 {
+  font-size: 44px;
+}
+
+.centrado article {
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  font-size: 24px;
+  width: 27%;
+}
+
+.seccion_3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  color: white;
+  opacity: 1;
+  font-size: 20px;
+  text-align: center;
+  border: 0px;
+  margin: auto;
+}
+
+.centrado_img {
+  width: 30%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.centrado_img img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #1e1a13;
+}
+
+.fa-eye {
+  font-size: 60px;
+}
+
+.fa-paint-brush {
+  font-size: 60px;
+  color: darkkhaki;
+}
+.fa-hand-peace {
+  font-size: 60px;
+}
